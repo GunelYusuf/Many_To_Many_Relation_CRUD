@@ -32,55 +32,6 @@ namespace FiorelloBack.Areas.Manage.Controllers
             ViewBag.Categories = _context.Categories.ToList();
             return View();
         }
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Create(Flower flower)
-        {
-            ViewBag.Campaigns = _context.Campaigns.ToList();
-            ViewBag.Categories = _context.Categories.ToList();
-            if (!ModelState.IsValid) return View();
-            if (flower.CampaignId==0)
-            {
-                flower.CampaignId = null;
-            }
-            flower.FlowerCategories = new List<FlowerCategory>();
-            flower.FlowerImages = new List<FlowerImage>();
-            foreach (var id in flower.CategoryIds)
-            {
-                FlowerCategory fCategory = new FlowerCategory()
-                {
-                    CategoryId = id,
-                    FlowerId = flower.Id
-
-                };
-                flower.FlowerCategories.Add(fCategory);
-            }
-            foreach (var image in flower.ImageFilies)
-            {
-                image.IsValidType("image/");
-                image.IsValidSize(200);
-   
-            }
-            foreach (var image in flower.ImageFilies)
-            {
-                FlowerImage fimage = new FlowerImage()
-                {
-                    Image = image.SavaFile(_env.WebRootPath, "assets/images"),
-                    IsMain = flower.FlowerImages.Count < 1 ? true : false,
-                    FlowerId = flower.Id
-                };
-                flower.FlowerImages.Add(fimage);
-            }
-            _context.Flowers.Add(flower);
-            _context.SaveChanges();
-            return RedirectToAction(nameof(Index));
-        }
-        public IActionResult Edit(int id)
-        {
-            ViewBag.Campaigns = _context.Campaigns.ToList();
-            ViewBag.Categories = _context.Categories.ToList();
-            Flower flower = _context.Flowers.FirstOrDefault(x => x.Id == id);
-            return View(flower);
-        }
+       
     }
 }
