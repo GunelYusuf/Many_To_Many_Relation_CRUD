@@ -279,7 +279,6 @@ C:/Users/hp/Source/Repos/FiorelloBack/FiorelloBack/obj/Debug/netcoreapp3.1/Razor
 /Users/gunelyusubova/Desktop/P125-ManyToMany-main/FiorelloBack/FiorelloBack/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /Users/gunelyusubova/Desktop/P125-ManyToMany-main/FiorelloBack/FiorelloBack/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /Users/gunelyusubova/Desktop/P125-ManyToMany-main/FiorelloBack/FiorelloBack/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
-/Users/gunelyusubova/Desktop/P125-ManyToMany-main/FiorelloBack/FiorelloBack/obj/Debug/netcoreapp3.1/FiorelloBack.csproj.AssemblyReference.cache
 /Users/gunelyusubova/Desktop/P125-ManyToMany-main/FiorelloBack/FiorelloBack/obj/Debug/netcoreapp3.1/FiorelloBack.GeneratedMSBuildEditorConfig.editorconfig
 /Users/gunelyusubova/Desktop/P125-ManyToMany-main/FiorelloBack/FiorelloBack/obj/Debug/netcoreapp3.1/FiorelloBack.AssemblyInfoInputs.cache
 /Users/gunelyusubova/Desktop/P125-ManyToMany-main/FiorelloBack/FiorelloBack/obj/Debug/netcoreapp3.1/FiorelloBack.AssemblyInfo.cs
