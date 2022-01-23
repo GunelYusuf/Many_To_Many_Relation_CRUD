@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{0103964F-1104-414D-862C-0AEA3D3B6153}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FiorelloBack/Areas/Manage/Controllers/FlowerController.cs">
+    <Files>
+      <File FileName="FiorelloBack/appsettings.json" Line="1" Column="1" />
+      <File FileName="FiorelloBack/Controllers/HomeController.cs" Line="24" Column="1" />
+      <File FileName="FiorelloBack/Startup.cs" Line="31" Column="35" />
+      <File FileName="FiorelloBack/Controllers/FlowerController.cs" Line="1" Column="1" />
+      <File FileName="FiorelloBack/Areas/Manage/Controllers/FlowerController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FiorelloBack" expanded="True">
+            <Node name="FiorelloBack" expanded="True">
+              <Node name="Areas" expanded="True">
+                <Node name="Manage" expanded="True">
+                  <Node name="Controllers" expanded="True">
+                    <Node name="FlowerController.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="DAL" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.FiorelloBack PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
